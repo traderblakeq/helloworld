@@ -12,6 +12,7 @@ public class HomeControllerTest {
     @Test
     public void home() {
         assertEquals("index", homeController.home());
+        assertNotNull(homeController);
 
     }
 }
